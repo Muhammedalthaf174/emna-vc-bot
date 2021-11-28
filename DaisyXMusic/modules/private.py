@@ -56,7 +56,7 @@ def _start(client, message):
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
-        f"""**🔴 {PROJECT_NAME} is online**""",
+        f"""**🔴 𝑬𝒎𝒏𝒂 𝑴𝒖𝒔𝒊𝒄 𝒃𝒐𝒕 is online**""",
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💬 Support Chat", url=f"https://t.me/{SUPPORT_GROUP}")]])
     )
 

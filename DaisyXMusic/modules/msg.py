@@ -18,15 +18,15 @@ from DaisyXMusic.config import ASSISTANT_NAME, PROJECT_NAME
 
 
 class Messages:
-    START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am 𝑬𝒎𝒏𝒂 𝑴𝒖𝒔𝒊𝒄 𝒃𝒐𝒕 created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
+    START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am 𝑬𝒎𝒏𝒂 𝑴𝒖𝒔𝒊𝒄❥︎♫︎ created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
     HELP_MSG = [
         ".",
         f"""
-**Hey 👋 Welcome back to 𝑬𝒎𝒏𝒂 𝑴𝒖𝒔𝒊𝒄 𝒃𝒐𝒕
+**Hey 👋 Welcome back to 𝑬𝒎𝒏𝒂 𝑴𝒖𝒔𝒊𝒄❥︎♫︎
 
-⚪️ 𝑬𝒎𝒏𝒂 𝑴𝒖𝒔𝒊𝒄 𝒃𝒐𝒕 can play music in your group's voice chat as well as channel voice chats
+⚪️ 𝑬𝒎𝒏𝒂 𝑴𝒖𝒔𝒊𝒄❥︎♫︎ can play music in your group's voice chat as well as channel voice chats
 
-⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
+⚪️ Assistant name >> @emnaassistant\n\nClick next for instructions**
 """,
         f"""
 **Setting up**
@@ -34,7 +34,7 @@ class Messages:
 1) Make bot admin (Group and in channel if use cplay)
 2) Start a voice chat
 3) Try /play [song name] for the first time by an admin
-*) If userbot joined enjoy music, If not add @{ASSISTANT_NAME} to your group and retry
+*) If userbot joined enjoy music, If not add @emnaassistant to your group and retry
 
 **For Channel Music Play**
 1) Make me admin of your channel 
